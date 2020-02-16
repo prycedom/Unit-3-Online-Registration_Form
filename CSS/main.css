@@ -1,1 +1,22 @@
 /* Basic Layout */
+
+body {
+  border: none;
+  
+}
+
+h1 {
+  color: white;
+  background-color: black;
+  padding: 20px;
+  text-align: center;
+}
+
+.header {
+text-align: center;
+border-bottom: solid 5px;
+}
+.header_content {
+  color: gray;
+  font-size: 25px;
+}
