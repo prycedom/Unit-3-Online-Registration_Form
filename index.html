@@ -12,58 +12,108 @@
 
     <<form class="main-form" action="index.html" method="post">
       <h2>Sign up for our Newsletter</h2>
-      <p>Get the latest news on how your code is doing right in your inbox</p>
-
-      <h2>Contact information</h2>
+      <label>Get the latest news on how your code is doing right in your inbox</label>
+      <legend><h2>Contact information</h2></legend>
       <fieldset>
         <label for="name">Full Name:</label>
         <input type="text" id="name" name="user_name" value="">
 
         <label for="email">Email Address:</label>
-        <input type="email" id="email" name="user_email" value="">
+        <input type="email" id="email" name="user_email">
 
         <label for="phone">Phone Number:</label>
-        <input type="telephone" id="phone" name="user_phone" value="">
+        <input type="telephone" id="phone" name="user_phone">
 
         <label for="street">Street Address:</label>
-        <input type="text" id="street" name="user_street" value="">
+        <input type="text" id="street" name="user_street">
 
         <label for="city">City:</label>
-        <input type="text" id="city" name="user_city" value="">
+        <input type="text" id="city" name="user_city">
 
         <label for="state">State:</label>
-        <input type="text" id="state" name="user_state" value="">
+        <select id="state" name="user_state">
+
+          <option value="alabama">Alabama</option>
+          <option value="alaska">Alaska</option>
+          <option value="arizona">Arizona</option>
+          <option value="arkansas">Arkansas</option>
+          <option value="california">California</option>
+          <option value="colorado">Colorado</option>
+          <option value="connecticut">Connecticut</option>
+          <option value="delaware">Delaware</option>
+          <option value="florida">Florida</option>
+          <option value="georgia">Georgia</option>
+          <option value="hawaii">Hawaii</option>
+          <option value="idaho">Idaho</option>
+          <option value="illinois">Illinois</option>
+          <option value="indiana">Indiana</option>
+          <option value="iowa">Iowa</option>
+          <option value="kansas">Kansas</option>
+          <option value="kentucky">Kentucky</option>
+          <option value="louisiana">Louisiana</option>
+          <option value="maine">Maine</option>
+          <option value="maryland">Maryland</option>
+          <option value="massachusetts">Massachusetts</option>
+          <option value="michigan">Michigan</option>
+          <option value="minnesota">Minnesota</option>
+          <option value="mississippi">Mississippi</option>
+          <option value="missouri">Missouri</option>
+          <option value="montana">Montana</option>
+          <option value="nebraska">Nebraska</option>
+          <option value="nevada">Nevada</option>
+          <option value="new_hampshire">New Hampshire</option>
+          <option value="new_jersey">New Jersey</option>
+          <option value="new_mexico">New Mexico</option>
+          <option value="new_york">New York</option>
+          <option value="north_carolina">North Carolina</option>
+          <option value="north dakota">North Dakota</option>
+          <option value="ohio">Ohio</option>
+          <option value="oklahoma">Oklahoma</option>
+          <option value="oregon">Oregon</option>
+          <option value="pennsylvania">Pennsylvania</option>
+          <option value="rhode_island">Rhode Island</option>
+          <option value="south_carolina">South Carolina</option>
+          <option value="south_dakota">South Dakota</option>
+          <option value="tennessee">Tennessee</option>
+          <option value="texas">Texas</option>
+          <option value="utah">Utah</option>
+          <option value="vermont">Vermont</option>
+          <option value="virginia">Virginia</option>
+          <option value="washington">Washington</option>
+          <option value="west_virginia">West Virginia</option>
+          <option value="wisconsin">Wisconsin</option>
+          <option value="wyoming">Wyoming</option>
 
         <label for="zip">Zip Code:</label>
-        <input type="text" id="zip" name="user_zip" value="">
+        <input type="text" id="zip" name="user_zip">
       </fieldset>
       <fieldset>
-        <h2>Newsletter</h2>
-        <p>Select the Newsletters you would like to receive</p>
+        <legend><h2>Newsletter</h2></legend>
+        <label>Select the Newsletters you would like to receive</label>
 
-        <input type="checkbox" id="HTML News" value="newsletter_htmlnews">
+        <input type="checkbox" id="HTML News" name="newsletter" value="newsletter_htmlnews">
         <label for="HTML News">HTML News</label>
 
-        <input type="checkbox" id="CSS News" value="newsletter_cssnews">
+        <input type="checkbox" id="CSS News" name="newsletter" value="newsletter_cssnews">
         <label for="CSS News">CSS News</label>
 
-        <input type="checkbox" id="Javascript News" value="newsletter_javascriptnews">
+        <input type="checkbox" id="Javascript News" name="newsletter" value="newsletter_javascriptnews">
         <label for="Javascript News">Javascript News</label>
 
-        <p>Newsletter Format</p>
-        <input type="radio" id="html" value="type_html">
+        <label for="">Newsletter Format</label>
+        <input type="radio" id="html" name="format" value="type_html">
         <label for="html">HTML</label>
 
-        <input type="radio" id="plain text" value="type_plaintext">
+        <input type="radio" id="plain text" name="format" value="type_plaintext">
         <label for="plain text">Plain Text</label>
 
-        <p>Other topics you'd like to hear about</p>
-        <textarea name="topics" rows="8" cols="80"></textarea>
+        <label>Other topics you'd like to hear about</label>
+        <textarea name="topics" id="other_topics" rows="8" cols="80"></textarea>
 
         <button type="button" name="button">Sign Up</button>
       </fieldset>
       <fieldset>
-        <p>Copyright The Code Review</p>
+        <label>Copyright The Code Review</label>
       </fieldset>
 
     </form>
