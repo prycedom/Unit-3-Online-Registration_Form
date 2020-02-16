@@ -2,7 +2,6 @@
 
 body {
   border: none;
-  
 }
 
 h1 {
@@ -11,7 +10,6 @@ h1 {
   padding: 20px;
   text-align: center;
 }
-
 .header {
 text-align: center;
 border-bottom: solid 5px;
@@ -19,4 +17,25 @@ border-bottom: solid 5px;
 .header_content {
   color: gray;
   font-size: 25px;
+}
+
+label {
+  color: gray;
+}
+input {
+  background-color: lightgray;
+  border-radius: 5px;
+}
+button {
+  background-color: #52bab3;
+  padding: 5px;
+}
+
+/* FLEXBOX */
+.contact,
+.newsletter {
+  display: flex;
+}
+input {
+  flex-grow: 1;
 }
