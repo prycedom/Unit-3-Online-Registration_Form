@@ -87,30 +87,32 @@
           <option value="west_virginia">West Virginia</option>
           <option value="wisconsin">Wisconsin</option>
           <option value="wyoming">Wyoming</option>
-
+          </select>
         <label for="zip">Zip Code:</label>
         <input type="text" id="zip" name="user_zip">
 
       </fieldset>
       <fieldset class="newsletter">
         <legend><h2>Newsletter</h2></legend>
-        <label>Select the Newsletters you would like to receive</label>
+        <label class="news-title">Select the Newsletters you would like to receive</label>
+
 
         <input type="checkbox" id="HTML News" name="newsletter" value="newsletter_htmlnews">
-        <label for="HTML News">HTML News</label>
 
-        <input type="checkbox" id="CSS News" name="newsletter" value="newsletter_cssnews">
         <label for="CSS News">CSS News</label>
+        <input type="checkbox" id="CSS News" name="newsletter" value="newsletter_cssnews">
 
-        <input type="checkbox" id="Javascript News" name="newsletter" value="newsletter_javascriptnews">
         <label for="Javascript News">Javascript News</label>
+        <input type="checkbox" id="Javascript News" name="newsletter" value="newsletter_javascriptnews">
+
 
         <label for="">Newsletter Format</label>
-        <input type="radio" id="html" name="format" value="type_html">
-        <label for="html">HTML</label>
 
-        <input type="radio" id="plain text" name="format" value="type_plaintext">
+        <label for="html">HTML</label>
+        <input type="radio" id="html" name="format" value="type_html">
+
         <label for="plain text">Plain Text</label>
+        <input type="radio" id="plain text" name="format" value="type_plaintext">
 
         <label>Other topics you'd like to hear about</label>
         <textarea name="topics" id="other_topics" rows="8" cols="80"></textarea>
