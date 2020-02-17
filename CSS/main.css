@@ -1,8 +1,5 @@
 /* Basic Layout */
 
-body {
-  border: none;
-}
 
 h1 {
   color: white;
@@ -18,13 +15,19 @@ border-bottom: solid 5px;
   color: gray;
   font-size: 25px;
 }
-
+fieldset {
+  border: none;
+}
 label {
   color: gray;
+}
+input::placeholder {
+  text-align: right;
 }
 input {
   background-color: lightgray;
   border-radius: 5px;
+  width: 100%;
 }
 button {
   background-color: #52bab3;
