@@ -24,10 +24,17 @@ label {
 input::placeholder {
   text-align: right;
 }
+select {
+  background-color: lightgray;
+  margin-bottom: 20px;
+  width: 100%;
+  padding: 10px;
+}
 input {
   background-color: lightgray;
   border-radius: 5px;
   width: 100%;
+  padding: 10px;
 }
 button {
   background-color: #52bab3;
