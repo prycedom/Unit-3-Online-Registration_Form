@@ -40,13 +40,10 @@ button {
   background-color: #52bab3;
   padding: 5px;
 }
-.newstitle {
-  display: inline-block;
-}
-
 
 /* FLEXBOX */
-.contact {
+.contact,
+.newsletter {
   display: flex;
   flex-wrap: wrap;
 }
