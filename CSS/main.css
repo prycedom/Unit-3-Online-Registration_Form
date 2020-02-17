@@ -38,12 +38,17 @@ input {
 }
 button {
   background-color: #52bab3;
-  padding: 5px;
+  padding: 10px;
+  border-radius: 5px;
+  width: 100%;
+  margin: 20px 0 20px 0;
 }
-
+.newsletter {
+  display: inline;
+}
 /* FLEXBOX */
 .contact,
-.newsletter {
+/* .newsletter { */
   display: flex;
   flex-wrap: wrap;
 }
