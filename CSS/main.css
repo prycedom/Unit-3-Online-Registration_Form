@@ -51,11 +51,11 @@ button {
   text-align: center;
 }
 /* FLEXBOX */
-.contact,
-/* .newsletter { */
+/* .contact,
+  .newsletter {
   display: flex;
   flex-wrap: wrap;
 }
 input {
   flex-grow: 1;
-}
+} */
