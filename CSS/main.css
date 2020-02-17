@@ -46,6 +46,9 @@ button {
 .newsletter {
   display: inline;
 }
+.copyright {
+  text-align: center;
+}
 /* FLEXBOX */
 .contact,
 /* .newsletter { */
