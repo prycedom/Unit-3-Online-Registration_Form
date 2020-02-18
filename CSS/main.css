@@ -78,6 +78,25 @@ button {
     width: 80%;
     margin: 0 auto;
   }
+ .input-wrapper {
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   margin: 10px 0;
+ }
+.input-wrapper label {
+  flex: 1;
+  align-self: flex-start;
+}
+.input-wrapper input {
+  flex: 2;
+  align-self: flex-end;
+}
+.input-wrapper select {
+  flex: 2;
+  align-self: flex-end;
+  margin: 10px 0;
+}
 
 
 /* .contact {
