@@ -1,6 +1,5 @@
 /* Basic Layout */
 
-
 h1 {
   color: white;
   background-color: black;
@@ -18,7 +17,6 @@ border-bottom: solid 5px;
 fieldset {
   border: none;
 }
-
 label {
   color: gray;
 }
@@ -28,7 +26,7 @@ input::placeholder {
 select {
   background-color: lightgray;
   margin-bottom: 20px;
-  width: 100%;
+  /* width: 100%; */
   padding: 10px;
 }
 input {
@@ -41,7 +39,7 @@ button {
   background-color: #52bab3;
   padding: 10px;
   border-radius: 5px;
-  width: 100%;
+  /* width: 100%; */
   margin: 20px 0 20px 0;
 }
 .newsletter label {
@@ -54,12 +52,17 @@ button {
 .copyright {
   text-align: center;
 }
-/* FLEXBOX */
-/* .contact,
-  .newsletter {
+/* Flexbox */
+
+.contact {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
 }
-input {
-  flex-grow: 1;
-} */
+
+
+@media (min-width: 768px) {
+  .main-form {
+    width: 70%;
+    max-width: 1000px;
+  }
+}
