@@ -16,6 +16,11 @@ border-bottom: solid 5px;
 }
 fieldset {
   border: none;
+  margin: 20px 0 20 0;
+}
+.contact {
+  width: 87%;
+  margin-left: 0;
 }
 label {
   color: gray;
@@ -26,7 +31,7 @@ input::placeholder {
 select {
   background-color: lightgray;
   margin-bottom: 20px;
-  /* width: 100%; */
+  width: 100%;
   padding: 10px;
 }
 input {
@@ -39,7 +44,7 @@ button {
   background-color: #52bab3;
   padding: 10px;
   border-radius: 5px;
-  /* width: 100%; */
+  width: 100%;
   margin: 20px 0 20px 0;
 }
 .newsletter label {
@@ -54,15 +59,16 @@ button {
 }
 /* Flexbox */
 
-.contact {
+/* .contact {
   display: flex;
   flex-direction: column;
-}
+  width: inherit;
+} */
 
 
 @media (min-width: 768px) {
   .main-form {
-    width: 70%;
+    /* width: 70%; */
     max-width: 1000px;
   }
 }
