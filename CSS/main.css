@@ -1,13 +1,17 @@
 /* Basic Layout */
-
+body {
+  margin: 0;
+}
 h1 {
   color: white;
   background-color: black;
   padding: 20px;
   text-align: center;
+  margin: 0;
+
 }
-.container {
-  width: 80%;
+.main-form {
+  max-width: 1000px;
   margin: 0 auto;
 }
 .info {
@@ -66,19 +70,15 @@ button {
 .copyright {
   text-align: center;
 }
-/* Flexbox */
-
-/* .contact {
-  display: flex;
-  flex-direction: column;
-  width: inherit;
-} */
 
 
 @media (min-width: 768px) {
-  .main-form {
-    width: 80%;
-    max-width: 1000px;
 
+  .main-form {
+    max-width: 1000px;
   }
+.contact {
+  : float-left;
+}
+
 }
