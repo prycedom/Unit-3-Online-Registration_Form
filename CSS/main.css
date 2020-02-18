@@ -11,7 +11,7 @@ h1 {
 
 }
 .main-form {
-  max-width: 1000px;
+  max-width: 80%;
   margin: 0 auto;
 }
 .info {
@@ -78,7 +78,11 @@ button {
     max-width: 1000px;
   }
 .contact {
-  : float-left;
+  display: flex;
+  flex-wrap: wrap;
+}
+.input {
+  flex-grow: 1;
 }
 
 }
