@@ -75,14 +75,17 @@ button {
 @media (min-width: 768px) {
 
   .main-form {
-    max-width: 1000px;
+    width: 80%;
+    margin: 0 auto;
   }
-.contact {
+
+
+/* .contact {
   display: flex;
   flex-wrap: wrap;
 }
 .input {
   flex-grow: 1;
-}
+} */
 
 }
