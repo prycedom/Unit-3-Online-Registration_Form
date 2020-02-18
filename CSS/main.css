@@ -6,9 +6,17 @@ h1 {
   padding: 20px;
   text-align: center;
 }
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+.info {
+  width: 100%;
+}
 .header {
-text-align: center;
-border-bottom: solid 5px;
+  text-align: center;
+  border-bottom: solid 5px;
+  width: 100%;
 }
 .header_content {
   color: gray;
@@ -19,8 +27,9 @@ fieldset {
   margin: 20px 0 20 0;
 }
 .contact {
-  width: 87%;
-  margin-left: 0;
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 label {
   color: gray;
@@ -38,7 +47,7 @@ input {
   background-color: lightgray;
   border-radius: 5px;
   width: 100%;
-  padding: 10px;
+  padding: 10px 0;
 }
 button {
   background-color: #52bab3;
@@ -68,7 +77,8 @@ button {
 
 @media (min-width: 768px) {
   .main-form {
-    /* width: 70%; */
+    width: 80%;
     max-width: 1000px;
+
   }
 }
