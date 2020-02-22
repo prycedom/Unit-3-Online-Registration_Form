@@ -34,16 +34,23 @@ fieldset {
 .contact {
   width: 100%;
   margin: 0;
-  padding: 0;
+  padding: 15;
+  border-bottom: solid 2px;
+}
+.contact legend {
+  padding-top: 20px;
 }
 .newsletter {
   background-color: skyblue;
+  margin: none;
 }
 .newsletter legend {
   padding-top: 50px;
 }
-h2 {
+legend {
   margin: 15px;
+  font-weight: bold;
+  font-size: 25px;
 }
 label {
   color: gray;
