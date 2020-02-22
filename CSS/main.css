@@ -52,7 +52,11 @@ input::placeholder {
   text-align: right;
 }
 .blue:focus {
+  transition:background-color 0.5s ease;
   background-color: lightblue;
+}
+.blue:hover{
+  background-color: lightgray;
 }
 select {
   background-color: lightgray;
@@ -92,7 +96,7 @@ button {
 @media (min-width: 768px) {
 
   .main-form {
-    width: 70%;
+    width: 800px;
     margin: 0 auto;
   }
  .input-wrapper {
