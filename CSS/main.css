@@ -41,6 +41,9 @@ label {
 input::placeholder {
   text-align: right;
 }
+.blue:focus {
+  background-color: lightblue;
+}
 select {
   background-color: lightgray;
   margin-bottom: 20px;
