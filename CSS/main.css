@@ -55,9 +55,6 @@ input::placeholder {
   transition:background-color 0.5s ease;
   background-color: lightblue;
 }
-.blue:hover{
-  background-color: lightgreen;
-}
 select {
   background-color: lightgray;
   margin-bottom: 20px;
