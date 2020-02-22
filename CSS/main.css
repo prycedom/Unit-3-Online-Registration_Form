@@ -56,7 +56,7 @@ input::placeholder {
   background-color: lightblue;
 }
 .blue:hover{
-  background-color: lightgray;
+  background-color: lightgreen;
 }
 select {
   background-color: lightgray;
