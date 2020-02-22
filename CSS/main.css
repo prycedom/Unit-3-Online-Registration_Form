@@ -29,20 +29,20 @@ h1 {
 }
 fieldset {
   border: none;
-  margin: 20px 0 20 0;
+  margin: 20px 0 20px 0;
 }
 .contact {
   width: 100%;
   margin: 0;
-  padding: 15;
+  padding: 20px;
   border-bottom: solid 2px;
 }
 .contact legend {
-  padding-top: 20px;
+  padding-top: 30px;
 }
 .newsletter {
   background-color: skyblue;
-  margin: none;
+  margin: 0;
 }
 .newsletter legend {
   padding-top: 50px;
@@ -122,14 +122,5 @@ button {
   align-self: flex-end;
   margin: 10px 0;
 }
-
-
-/* .contact {
-  display: flex;
-  flex-wrap: wrap;
-}
-.input {
-  flex-grow: 1;
-} */
 
 }
