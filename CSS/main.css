@@ -1,6 +1,7 @@
 /* Basic Layout */
 body {
   margin: 0;
+  font-family: Merriweather;
 }
 h1 {
   color: white;
@@ -37,8 +38,9 @@ fieldset {
 }
 .newsletter {
   background-color: skyblue;
-
-
+}
+.newsletter legend {
+  padding-top: 50px;
 }
 h2 {
   margin: 15px;
@@ -90,7 +92,7 @@ button {
 @media (min-width: 768px) {
 
   .main-form {
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
   }
  .input-wrapper {
