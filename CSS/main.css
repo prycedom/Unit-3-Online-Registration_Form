@@ -9,7 +9,6 @@ h1 {
   padding: 20px;
   text-align: center;
   margin: 0;
-
 }
 .main-form {
   max-width: 80%;
@@ -59,7 +58,9 @@ input::placeholder {
   text-align: right;
 }
 .blue:focus {
-  transition:background-color 0.5s ease;
+  background-color: lightblue;
+}
+select:focus {
   background-color: lightblue;
 }
 select {
